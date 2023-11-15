@@ -1,0 +1,159 @@
+/* Resert8*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4{
+    color: #333;
+}
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: solid #ccc 2px;
+    padding: 10px 4px;
+    outline: 0;
+
+}
+
+textarea, input[type="number"], input[type="date"], input[type="file"], input[type="text"]{
+    width: 600px;
+}
+
+textarea{
+    padding: 10px 5px;
+
+}
+
+
+/*page header*/
+
+.header-top{
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+}
+
+.header-top h3 {
+    color: #fff;
+    margin-top: 0;
+
+}
+
+/* form page */
+
+.form-container{
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/* Form herder*/
+.form-herder
+{
+border-bottom: 1px solid #dfdfdf;
+      
+}
+
+.form-herder p{
+    color: #673ab7;
+    
+    border-bottom: 2px solid #673ab7;
+    text-align: center;
+width: 100px;
+margin: 0 auto;
+text-transform: uppercase;
+height: 45px;
+line-height: 45px;
+}
+
+.form-body{
+    padding: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.main-tile{
+    margin-bottom:10px ;
+}
+
+
+.requerid-field{
+    color: #d11b1bd8;
+}
+
+.box-input{
+    margin-bottom: 20px;
+
+}
+
+
+
+.block , textarea{
+    display: block;
+}
+
+.optional-list{
+
+    margin-bottom: 20px;
+
+
+}
+
+.btn-submit{
+    background-color: #673ab7;
+    color: #fff;
+    width: 150px;
+    border: 2px solid transparent;
+    height: 50px;
+    cursor:pointer ;
+    transition: 0.5s;
+    text-transform: uppercase;
+
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    border: #673ab7;
+    color: #673ab7;
+
+}
+
+
+@media (max-width: 425px){
+
+    textarea, input[type="number"], input[type="date"], input[type="file"], input[type="text"]{
+    width: 220px;
+    }
+
+   .main-tile{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+   .form-body p{
+font-size: 13px;
+}
+   
+.btn-submit{
+ width: 100px;
+ margin: 0 5px;   
+
+}
+    
+    
+}
